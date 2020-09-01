@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'titillium web';
+}
+header,
+section,
+footer{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+section{
+    background-color: #fff;
+    box-shadow: #ccc 0 0 20px 2;
+    border-radius: 5px;
+    padding: 10px;
+}
+.msgTitle{
+    margin: 10px 0;
+    color: #fff;
+}
+.msg1{
+    margin: 10px 0;
+    color: #000;
+}
+.img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+.msgFooter{
+    margin: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}

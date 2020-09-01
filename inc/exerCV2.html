@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/exerCV2.css">
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <div class="topBar">
+        </div>
+        <div class="topTitle">
+        </div>
+    </header>
+    <section>
+        <div class="box1">
+
+        </div>
+        <div class="box2 ocultar">
+            <div class="form">
+                <h2>Seja bem vindo <span id="user"></span></h2>
+                <p>para continuar, preenchar as informações abaixo</p>
+                <p>Deseja Continuar ?
+                <p>
+                    <input type="button" value="sim" onclick="askSim()"> <input type="button" value="nao" id="askNao" onclick="aksNao()">
+                <div class="askSexo ocultar">
+                    <p>Qual é seu sexo?</p>
+                    <div class='sexoForm'>
+                        <label for="sexo">Masculino</label> <input type="radio" name="sexo" id="sexoMasc"
+                            onclick="sexoMasc()">
+                        <label for="sexo">Feminino</label> <input type="radio" name="sexo" id="sexoFem"
+                            onclick="sexoMasc()">
+                    </div>
+                </div>
+                <div class="askDataN ocultar">
+                    <label for="dataN">Qual é sua data de Nascimento?</p>
+                        <input type="number" id="dataN">
+                        <input type="submit" value="enviar" onclick="check2()">
+                </div>
+            </div>
+            <div class="formImg ocultar">
+                <h2><span id="user2"></span>! Você tem <span id="idade"></span> anos e pertence ao sexo <span
+                        id="genero"></span></h2>
+                <img id="img" src="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="msg"></div>
+    </footer>
+    <script type="text/javascript" src="../assets/js/exerCV2.js"></script>
+</body>
+
+</html>

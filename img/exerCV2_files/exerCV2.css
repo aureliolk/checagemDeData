@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #00ccff;
+    font-family: 'titillium web';
+    padding: 20px 0;
+}
+header,section,footer{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header{
+    color: #Fff;
+}
+section{
+    background-color: #fff;
+    box-shadow: #ccc 0 0 10px 0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+p{
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#anoN{
+    border: 0;
+    box-shadow: #000 0 0 2px 0;
+    height: 20px;
+    width: 65px;
+    border-radius: 3px;
+}
+#selButton{
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgba(6, 193, 250, 0.623);
+    color: #Fff;
+}

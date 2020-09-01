@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    font-family: 'titillium web';
+    margin: auto;
+    width: 90%;
+}
+.topBar{
+    font-family: 'titillium web';
+    background-color:#2b2b2b;
+    padding: 1rem;
+    text-align: right;
+    color: #fff;
+}
+#nameDev,
+#idDev{
+    color: #00ff00;
+}
+/* areaDeModulos */
+.section1{
+    display:flex;
+    padding-bottom: 1rem ;
+}
+.dropModelo{
+    width: 15%;
+    border: 1px solid;
+    margin-right: 5px;
+}
+button.dropMod{
+    display: flex;
+    border: 0;
+    padding: .3rem 1rem;
+    width: -webkit-fill-available;
+    background-color: #00ff00;
+    justify-content: center;
+    border-radius: 0 0 5px 5px;
+    border-bottom: 1px solid #1a7d024d;
+    box-shadow: #c5c5c5 1px 3px 9px -2px;
+    font-family: 'titillium web';
+    color: #fff;
+    text-transform: uppercase;
+}
+.hiden{
+    display: none;
+}
+.displayBlock{
+    display: block;
+}
